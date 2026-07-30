@@ -1,9 +1,27 @@
 aid: liveprofile
 name: Liveprofile
-description: Liveprofile is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  LiveProfile is a cross-platform mobile messaging and chat product ("Stay connected with people
+  and things that matter. Chat securely and express yourself freely."). It was originally backed by
+  Lightspeed Venture Partners and is surfaced in the API Evangelist network as a portfolio-derived
+  company profile. As of this enrichment pass, liveprofile.com is an invite-only relaunch teaser
+  ("The New LiveProfile") running a waitlist, with apps advertised for Android, iPhone & iPad, and
+  Mac/PC. The company maintains a public GitHub organization and a BetterUptime status page, but
+  publishes no public API surface, developer documentation, OpenAPI, or SDKs at this time — so this
+  profile carries identity and operational signals only, awaiting a real developer/API surface.
 url: https://raw.githubusercontent.com/api-evangelist/liveprofile/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://liveprofile.com/images/favicon-196x196.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +30,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Messaging
+- Chat
+- Communication
+- Mobile
+- Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/liveprofile-domain-security.yml
+- type: Website
+  url: https://liveprofile.com
+- type: GitHubOrganization
+  url: https://github.com/liveprofile
+- type: StatusPage
+  url: https://status.liveprofile.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
