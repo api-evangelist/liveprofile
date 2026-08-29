@@ -10,6 +10,9 @@ description: >-
   publishes no public API surface, developer documentation, OpenAPI, or SDKs at this time — so this
   profile carries identity and operational signals only, awaiting a real developer/API surface.
 url: https://raw.githubusercontent.com/api-evangelist/liveprofile/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The company maintains a public GitHub organization and a BetterUptime status page, but publishes no public API surface, developer documentation, OpenAPI, or SDKs at this time — so this profile carries"
 deliveryModel:
   model: unknown
   open_source: false
